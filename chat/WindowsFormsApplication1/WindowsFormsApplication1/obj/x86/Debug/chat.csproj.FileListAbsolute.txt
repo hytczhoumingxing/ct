@@ -5,3 +5,11 @@ C:\Users\Student\Desktop\chat\WindowsFormsApplication1\WindowsFormsApplication1\
 C:\Users\Student\Desktop\chat\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\chat.csproj.GenerateResource.Cache
 C:\Users\Student\Desktop\chat\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
 C:\Users\Student\Desktop\chat\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\ct\chat\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\ct\chat\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\ct\chat\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\ct\chat\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\ct\chat\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\chat.csprojResolveAssemblyReference.cache
+C:\ct\chat\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.聊天.resources
+C:\ct\chat\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\ct\chat\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\chat.csproj.GenerateResource.Cache

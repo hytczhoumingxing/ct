@@ -40,6 +40,7 @@ namespace WindowsFormsApplication1
         {
             Thread th = new Thread(new ThreadStart(listen));
             th.Start();
+            th.IsBackground=true;
             UdpClient uc = new UdpClient();
             string ip = this.txtIp.Text;
             string msg = "INROOM" + "|" + this.txtMsg.Text + "|周星星";
