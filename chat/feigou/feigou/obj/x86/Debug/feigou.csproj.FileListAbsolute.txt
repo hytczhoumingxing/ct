@@ -6,3 +6,4 @@ C:\ct\chat\feigou\feigou\obj\x86\Debug\feigou.UCfriend.resources
 C:\ct\chat\feigou\feigou\obj\x86\Debug\feigou.csproj.GenerateResource.Cache
 C:\ct\chat\feigou\feigou\obj\x86\Debug\feigou.exe
 C:\ct\chat\feigou\feigou\obj\x86\Debug\feigou.pdb
+C:\ct\chat\feigou\feigou\obj\x86\Debug\feigou.csprojResolveAssemblyReference.cache

@@ -67,7 +67,7 @@ namespace feigou
                       friend.Shuoshuo=s[3];
                       object[] pars=new object[1];
                       pars[0]=friend;
-                      this.Invoke(new delAddFriend(this.addUcf),pars);
+                      this.Invoke(new delAddFriend(this.addUcf),pars[0]);
                   }
             }
         }
@@ -77,7 +77,7 @@ namespace feigou
             //发广播
             UdpClient uc = new UdpClient();
             string txtName=this.txtName.Text;
-            string msg = "LOGIN|" + txtName + "|2|大家来找我吧";
+            string msg = "LOGIN|" + "你的益达" + "|45|今天天气很好";
             byte[] bmsg = Encoding.Default.GetBytes(msg);
             uc.Send(bmsg,bmsg.Length,new IPEndPoint(IPAddress.Parse("255.255.255.255"),9527));
         }

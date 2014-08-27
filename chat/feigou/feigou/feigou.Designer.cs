@@ -42,9 +42,11 @@
             // 
             // headerimage
             // 
+            this.headerimage.Image = ((System.Drawing.Image)(resources.GetObject("headerimage.Image")));
             this.headerimage.Location = new System.Drawing.Point(5, 5);
             this.headerimage.Name = "headerimage";
             this.headerimage.Size = new System.Drawing.Size(80, 80);
+            this.headerimage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.headerimage.TabIndex = 0;
             this.headerimage.TabStop = false;
             // 
@@ -53,18 +55,18 @@
             this.lblNickName.AutoSize = true;
             this.lblNickName.Location = new System.Drawing.Point(100, 9);
             this.lblNickName.Name = "lblNickName";
-            this.lblNickName.Size = new System.Drawing.Size(41, 12);
+            this.lblNickName.Size = new System.Drawing.Size(53, 12);
             this.lblNickName.TabIndex = 1;
-            this.lblNickName.Text = "label1";
+            this.lblNickName.Text = "你的益达";
             // 
             // lblShuoshuo
             // 
             this.lblShuoshuo.AutoSize = true;
-            this.lblShuoshuo.Location = new System.Drawing.Point(100, 49);
+            this.lblShuoshuo.Location = new System.Drawing.Point(91, 54);
             this.lblShuoshuo.Name = "lblShuoshuo";
-            this.lblShuoshuo.Size = new System.Drawing.Size(41, 12);
+            this.lblShuoshuo.Size = new System.Drawing.Size(77, 12);
             this.lblShuoshuo.TabIndex = 1;
-            this.lblShuoshuo.Text = "label1";
+            this.lblShuoshuo.Text = "今天天气很好";
             this.lblShuoshuo.Click += new System.EventHandler(this.label2_Click);
             // 
             // pnFriendsList
@@ -73,13 +75,13 @@
             this.pnFriendsList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pnFriendsList.Location = new System.Drawing.Point(5, 132);
             this.pnFriendsList.Name = "pnFriendsList";
-            this.pnFriendsList.Size = new System.Drawing.Size(255, 282);
+            this.pnFriendsList.Size = new System.Drawing.Size(255, 305);
             this.pnFriendsList.TabIndex = 2;
             this.pnFriendsList.Paint += new System.Windows.Forms.PaintEventHandler(this.pnFriendsList_Paint);
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(160, 49);
+            this.btnLogin.Location = new System.Drawing.Point(174, 49);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(75, 23);
             this.btnLogin.TabIndex = 3;
@@ -89,7 +91,7 @@
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(160, 12);
+            this.txtName.Location = new System.Drawing.Point(174, 9);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(75, 21);
             this.txtName.TabIndex = 4;
@@ -207,7 +209,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(272, 436);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(257, 434);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.pnFriendsList);
@@ -215,7 +218,8 @@
             this.Controls.Add(this.lblNickName);
             this.Controls.Add(this.headerimage);
             this.Name = "feigou";
-            this.Text = "Form1";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
+            this.Text = "来聊天吧";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.headerimage)).EndInit();
             this.ResumeLayout(false);
